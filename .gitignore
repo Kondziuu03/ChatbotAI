@@ -1,0 +1,36 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+backend/ChatbotAI/.vs/
+
+# ASP.NET secrets
+**/secrets.json
+
+# Visual Studio
+.vscode/
+*.code-workspace
+
+# Angular
+node_modules/
+dist/
+.angular/
+out-tsc/
+
+# Logs and temp
+*.log
+*.tmp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*.local
