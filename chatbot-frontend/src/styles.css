@@ -1,4 +1,111 @@
-/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: #f5f5f5;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+mat-card {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.chat-messages {
+  height: 400px;
+  overflow-y: auto;
+  padding: 16px;
+  margin-bottom: 16px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.message-container {
+  margin-bottom: 16px;
+}
+
+.user-msg {
+  text-align: right;
+  padding: 10px;
+  background-color: #e3f2fd;
+  border-radius: 8px;
+  margin: 5px 0;
+}
+
+.bot-msg {
+  text-align: left;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  margin: 5px 0;
+}
+
+.message-content {
+  margin: 8px 0;
+}
+
+.rating-buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  margin-top: 8px;
+}
+
+.rating-buttons button {
+  color: #9e9e9e !important;
+}
+
+.rating-buttons button.rated {
+  color: #2196f3 !important;
+}
+
+.rating-buttons button.rated:last-child {
+  color: #f44336 !important;
+}
+
+.rating-buttons mat-icon {
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+button {
+  margin-right: 8px;
+}
+
+mat-form-field {
+  margin-bottom: 16px;
+}
+
+strong {
+  display: block;
+  margin-bottom: 4px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+p {
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+app-message {
+  display: block;
+  margin: 10px 0;
+}
+  
