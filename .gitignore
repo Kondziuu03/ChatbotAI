@@ -6,6 +6,7 @@ obj/
 *.userosscache
 *.sln.docstates
 backend/ChatbotAI/.vs/
+backend/ChatbotAI/ChatbotAI/appsettings.Development.json
 
 # ASP.NET secrets
 **/secrets.json
